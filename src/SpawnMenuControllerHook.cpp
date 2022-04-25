@@ -9,8 +9,6 @@ il2cpp_utils::SetFieldValue(name, "maxAmount", UNLIMITED_LIMIT);
 MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(SpawnMenuController_Start, "GlobalNamespace", "SpawnMenuController", "Start", void,
     Il2CppObject *self
 ) {
-    SpawnMenuController_Start(self);
-
     UNLIMIT_SPAWNABLE(eder22)
     UNLIMIT_SPAWNABLE(mk18)
     UNLIMIT_SPAWNABLE(_590A1)
@@ -43,6 +41,8 @@ MAKE_HOOK_FIND_CLASS_UNSAFE_INSTANCE(SpawnMenuController_Start, "GlobalNamespace
     UNLIMIT_SPAWNABLE(thruster)
     UNLIMIT_SPAWNABLE(thrusterRemote)
     UNLIMIT_SPAWNABLE(health)
+
+    SpawnMenuController_Start(self);
 }
 
 void SpawnMenuControllerHook(Logger &logger) {
