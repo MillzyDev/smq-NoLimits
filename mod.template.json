@@ -1,0 +1,15 @@
+{
+  "_QPVersion": "0.1.2",
+  "name": "${mod_name}",
+  "id": "${mod_id}",
+  "author": "Millzy",
+  "version": "${version}",
+  "packageId": "com.Exo.Playground2",
+  "packageVersion": "0.5.3",
+  "description": "Increases the maximum amount of spawnables to 999. USE AT YOUR OWN RISK",
+  "dependencies": [],
+  "modFiles": [],
+  "libraryFiles": [],
+  "fileCopies": [],
+  "copyExtensions": []
+}
