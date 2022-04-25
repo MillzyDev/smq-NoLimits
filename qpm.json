@@ -1,0 +1,34 @@
+{
+	"sharedDir": "shared",
+	"dependenciesDir": "extern",
+	"info": {
+		"name": "NoLimits",
+		"id": "NoLimits",
+		"version": "0.1.0",
+		"url": null,
+		"additionalData": {
+			"overrideSoName": "libNoLimits.so"
+		}
+	},
+	"dependencies": [
+		{
+			"id": "beatsaber-hook",
+			"versionRange": "*",
+			"additionalData": {
+				"extraFiles": [
+					"src/inline-hook"
+				]
+			}
+		},
+		{
+			"id": "modloader",
+			"versionRange": "=1.2.3",
+			"additionalData": {
+				
+			}
+		}
+	],
+	"additionalData": {
+		
+	}
+}
