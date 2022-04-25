@@ -34,13 +34,13 @@ if ($help -eq $true) {
 }
 
 $timestamp = Get-Date -Format "MM-dd HH:mm:ss.fff"
-$bspid = adb shell pidof com.beatgames.beatsaber
+$bspid = adb shell pidof com.Exo.Playground2
 $command = "adb logcat -T `"$timestamp`""
 
 if ($all -eq $false) {
     while ([string]::IsNullOrEmpty($bspid)) {
         Start-Sleep -Milliseconds 100
-        $bspid = adb shell pidof com.beatgames.beatsaber
+        $bspid = adb shell pidof com.Exo.Playground2
     }
 
     $command += "--pid $bspid"

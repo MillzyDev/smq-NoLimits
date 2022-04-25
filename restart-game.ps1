@@ -1,2 +1,2 @@
-adb shell am force-stop com.beatgames.beatsaber
-adb shell am start com.beatgames.beatsaber/com.unity3d.player.UnityPlayerActivity
+adb shell am force-stop com.Exo.Playground2
+adb shell am start com.Exo.Playground2/com.unity3d.player.UnityPlayerActivity
